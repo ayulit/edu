@@ -1,0 +1,41 @@
+
+*.jar
+*.class
+*.zip
+*.dll
+*.exe
+
+# Maven
+target/
+
+# Gradle
+.gradle
+build/
+tmp_download
+
+.git
+
+# IDEA
+.idea
+.shelf
+*.iml
+*.factorypath
+*.ipr
+*.iws
+/out
+/datasources
+/.inspectionProfiles
+.ideaDataSources
+
+# Eclipse
+bin/
+.apt_generated/
+.classpath
+.project
+.settings
+.springBeans
+
+build
+out
+
+generated/
