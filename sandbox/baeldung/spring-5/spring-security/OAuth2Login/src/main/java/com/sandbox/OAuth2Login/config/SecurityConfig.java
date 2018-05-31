@@ -12,6 +12,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
          .anyRequest().authenticated()
          .and()
-         .oauth2Login();
+         // Adding default login form for OAuth
+         .oauth2Login()
+                .defaultSuccessUrl("/loginSuccess")
+                .failureUrl("/loginFailure");
     }
 }
