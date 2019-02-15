@@ -4,6 +4,7 @@
 *.zip
 *.dll
 *.exe
+*.gz
 
 # Maven
 target/
